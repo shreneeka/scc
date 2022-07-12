@@ -996,6 +996,7 @@ hr {
 
 .social-icon a:nth-child(7):hover {
     background: radial-gradient(circle at 30% 107%, #3e65cf 0%, #c71610 5%, #f2a60c 45%, #3b60c4 60%, #08851b 90%);
+     background: linear-gradient(to right, #3e65cf 3%, #c71610 5%, #f2a60c 45%, #3b60c4 60%, #08851b 90%);
 }
 
 .social-icon a:nth-child(1) .faa:hover,
