@@ -107,6 +107,12 @@
     .logo h4 {
         font-size: 16px;
     }
+     .core-values {
+            padding: 0px 0 90px;
+   }
+ .cliant {
+            padding: 144px 0 5px;
+  }
     .menu-bar ul li a {
         font-size: 11px;
         padding: 20px 7px;
@@ -121,7 +127,12 @@
         font-size: 20px;
     }
 }
-
+@media only screen and (max-width: 848px) {
+        .growth-image,
+        .growth-image1 {
+            width: 226px;
+        }
+    }
 @media only screen and (max-width: 768px) {
     .circle-layer,
     .side-box,
