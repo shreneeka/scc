@@ -126,6 +126,9 @@
     .start-text h4 {
         font-size: 20px;
     }
+     .technical {
+            padding: 0px 0 117px;
+        }
 }
 @media only screen and (max-width: 848px) {
         .growth-image,
