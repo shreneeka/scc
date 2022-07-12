@@ -933,20 +933,83 @@ hr {
     color: white;
     font-weight: 700;
 }
-
 .social-icon a {
-    padding: 3px 6px 5px;
     transition-duration: 0.5s;
+    background-color: white;
+}
+
+.faa {
+    color: var(--blue);
+    font-size: 18px;
+}
+
+.social-icon a:nth-child(1) .faa,
+.social-icon a:nth-child(3) .faa,
+.social-icon a:nth-child(4) .faa {
+    padding: 5px 6px 2px;
+}
+
+.social-icon a:nth-child(2) .faa {
+    padding: 5px 8px 2px;
+}
+
+.social-icon a:nth-child(5) .faa,
+.social-icon a:nth-child(7) .faa {
+    padding: 5px 5px 2px;
+}
+
+.social-icon a:nth-child(6) .faa {
+    padding: 5px 4px 2px;
 }
 
 .social-icon a:hover {
-    background-color: var(--orange)!important;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }
+
+.social-icon a:nth-child(1):hover {
+    background-color: #00e676;
+}
+
+.social-icon a:nth-child(2):hover {
+    background-color: #395498;
+}
+
+.social-icon a:nth-child(3):hover {
+    background-color: #0077b5;
+}
+
+.social-icon a:nth-child(4):hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.social-icon a:nth-child(5):hover {
+    background-color: #1da1f2;
+}
+
+.social-icon a:nth-child(6):hover {
+    background-color: #dd4d3f;
+}
+
+.social-icon a:nth-child(7):hover {
+    background: radial-gradient(circle at 30% 107%, #3e65cf 0%, #c71610 5%, #f2a60c 45%, #3b60c4 60%, #08851b 90%);
+}
+
+.social-icon a:nth-child(1) .faa:hover,
+.social-icon a:nth-child(2) .faa:hover,
+.social-icon a:nth-child(3) .faa:hover,
+.social-icon a:nth-child(4) .faa:hover,
+.social-icon a:nth-child(5) .faa:hover,
+.social-icon a:nth-child(6) .faa:hover,
+.social-icon a:nth-child(7) .faa:hover {
+    color: white;
+}
+
+
+
 
 .social-icon p {
     font-size: 13px;
