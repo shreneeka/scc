@@ -793,15 +793,17 @@ body::-webkit-scrollbar {
 
 .project-img {
     overflow: hidden;
+      border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .project-img img {
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    transition-duration: 0.5s;
+       transition-duration: 0.5s;
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
 }
 
 .brand-p {
@@ -861,6 +863,8 @@ body::-webkit-scrollbar {
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+     filter: brightness(100%);
+    -webkit-filter: brightness(100%);
 }
 
 
