@@ -13,6 +13,18 @@ $(document).ready(function() {
             $(".top").css({ "opacity": "0" });
         }
     });
+    
+    //BOTTOM TO TOP-----------------------------------------
+    const top = document.getElementById("top");
+    const onScroll = () => {
+        const topscroll = document.documentElement.scrollTop
+        if (topscroll >= 30) {
+            top.style.opacity = "1";
+        } else {
+            top.style.opacity = "0";
+        }
+    }
+    window.addEventListener('scroll', onScroll);
 
     //ACTIVE CLASS ON CLICK-----------------------------------------
     $('ul li a').click(function() {
