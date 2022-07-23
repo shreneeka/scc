@@ -213,9 +213,9 @@ body::-webkit-scrollbar {
 
 /*CARASOUL VERTICAL
 --------------------------------------------*/
-
-.swiper-slide img {
-    display: inline-block;
+.s1 {
+    overflow: hidden;
+    height: 50px;
 }
 
 .swiper-slide h3 {
